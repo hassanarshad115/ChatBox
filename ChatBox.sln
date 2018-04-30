@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBox", "ChatBox\ChatBox.csproj", "{86F80FFA-549E-49CB-A078-CB430F749892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F80FFA-549E-49CB-A078-CB430F749892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F80FFA-549E-49CB-A078-CB430F749892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F80FFA-549E-49CB-A078-CB430F749892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F80FFA-549E-49CB-A078-CB430F749892}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65C9D00-61C5-4007-920C-376BF4DE1A07}
+	EndGlobalSection
+EndGlobal
