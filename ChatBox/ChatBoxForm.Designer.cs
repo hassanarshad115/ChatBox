@@ -41,6 +41,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.timelabel4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FirsttextBox1
@@ -53,7 +54,6 @@
             this.FirsttextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.FirsttextBox1.Size = new System.Drawing.Size(174, 36);
             this.FirsttextBox1.TabIndex = 3;
-            this.FirsttextBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             this.FirsttextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // SecondtextBox2
@@ -168,12 +168,22 @@
             this.listBox1.Size = new System.Drawing.Size(381, 238);
             this.listBox1.TabIndex = 101;
             // 
+            // timelabel4
+            // 
+            this.timelabel4.AutoSize = true;
+            this.timelabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timelabel4.Location = new System.Drawing.Point(216, 392);
+            this.timelabel4.Name = "timelabel4";
+            this.timelabel4.Size = new System.Drawing.Size(0, 17);
+            this.timelabel4.TabIndex = 102;
+            // 
             // ChatBoxForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(405, 412);
+            this.Controls.Add(this.timelabel4);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -212,6 +222,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label timelabel4;
     }
 }
 

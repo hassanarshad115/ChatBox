@@ -17,22 +17,16 @@ namespace ChatBox
             InitializeComponent();
         }
 
-        private void textBox1_Enter(object sender, EventArgs e)
-        {
-            //textBox2.Text = textBox1.Text;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            //listView1.Items.Add(textBox1.Text);
-        }
-
+       
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 listBox1.Items.Add(FnametextBox4.Text + ":  " + FirsttextBox1.Text);
-               
+
+                string s = timelabel4.Text = DateTime.Now.ToLongTimeString();
+                listBox1.Items.Add(s);
+
                 FirsttextBox1.Clear();
                 FirsttextBox1.Focus();
                 //textBox2.Text = textBox1.Text;
@@ -44,6 +38,10 @@ namespace ChatBox
             if (e.KeyCode == Keys.Enter)
             {
                 listBox1.Items.Add(SnametextBox3.Text + ":  " + SecondtextBox2.Text);
+
+                string s = timelabel4.Text = DateTime.Now.ToLongTimeString();
+                listBox1.Items.Add(s);
+
                 SecondtextBox2.Clear();
                 SecondtextBox2.Focus();
 
@@ -59,7 +57,7 @@ namespace ChatBox
                 fnamelabel3.Text = FnametextBox4.Text;
                 SnametextBox3.Enabled = false;
                 Snamelabel3.Text = SnametextBox3.Text;
-              
+
                 FirsttextBox1.Enabled = true;
                 SecondtextBox2.Enabled = true;
                 FirsttextBox1.Focus();
@@ -104,9 +102,9 @@ namespace ChatBox
 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
-            MessageBox.Show("Chat Box Developing By Hassan Malik \nMcs IUB BahawalNagar Campus \nContact: 0334-9055786","AboutUs",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Chat Box Developing By Hassan Malik \nMcs IUB BahawalNagar Campus \nContact: 0334-9055786", "AboutUs", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-      
+
     }
 }
